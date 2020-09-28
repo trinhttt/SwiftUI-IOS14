@@ -13,6 +13,8 @@
 		0E0FDF68252085B800B878C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0FDF67252085B800B878C4 /* Assets.xcassets */; };
 		0E0FDF6B252085B800B878C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0FDF6A252085B800B878C4 /* Preview Assets.xcassets */; };
 		0E0FDF6E252085B800B878C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0FDF6C252085B800B878C4 /* LaunchScreen.storyboard */; };
+		0E938C512522A25100618C28 /* CourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E938C502522A25100618C28 /* CourcesView.swift */; };
+		0EEAE83325229CC400EDB602 /* CourceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEAE83225229CC400EDB602 /* CourceRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0E0FDF6A252085B800B878C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E0FDF6D252085B800B878C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0FDF6F252085B800B878C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E938C502522A25100618C28 /* CourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesView.swift; sourceTree = "<group>"; };
+		0EEAE83225229CC400EDB602 /* CourceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourceRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0E0FDF6C252085B800B878C4 /* LaunchScreen.storyboard */,
 				0E0FDF6F252085B800B878C4 /* Info.plist */,
 				0E0FDF69252085B800B878C4 /* Preview Content */,
+				0EEAE83225229CC400EDB602 /* CourceRow.swift */,
+				0E938C502522A25100618C28 /* CourcesView.swift */,
 			);
 			path = DesignCodeSource;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 				0E0FDF62252085B400B878C4 /* AppDelegate.swift in Sources */,
 				0E0FDF64252085B400B878C4 /* SceneDelegate.swift in Sources */,
 				0E0FDF66252085B400B878C4 /* ContentView.swift in Sources */,
+				0EEAE83325229CC400EDB602 /* CourceRow.swift in Sources */,
+				0E938C512522A25100618C28 /* CourcesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
