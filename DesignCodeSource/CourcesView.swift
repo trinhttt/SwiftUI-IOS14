@@ -10,14 +10,11 @@ import SwiftUI
 
 struct CourcesView: View {
     var body: some View {
-        if #available(iOS 14.0, *) {
-            List(0 ..< 20) { item in
-                CourceRow()
-            }
-            .listStyle(InsetGroupedListStyle())
-        } else {
-            // Fallback on earlier versions
+        List(0 ..< 20) { item in
+            CourceRow()
         }
+        .listStyle(InsetGroupedListStyle())
+        .navigationTitle("Courses")
     }
 }
 

@@ -35,17 +35,3 @@ struct SourceRow_Previews: PreviewProvider {
         CourceRow()
     }
 }
-//HStack(alignment: .top) {
-//    Image(systemName: "paperplane.circle.fill")
-//        .renderingMode(.original)
-//        .imageScale(.medium)
-//
-//    VStack(alignment: .leading, spacing: 4.0) {
-//        Text("SwiftUI")
-//            .font(.subheadline)
-//            .bold()
-//        Text("Description")
-//            .font(.footnote)
-//            .foregroundColor(.secondary)
-//    }
-//}
