@@ -1,14 +1,14 @@
 //
-//  ContentView.swift
+//  CourseItem.swift
 //  DesignCodeSource
 //
-//  Created by Trinh Thai on 9/27/20.
+//  Created by Trinh Thai on 10/2/20.
 //  Copyright © 2020 Trinh Thai. All rights reserved.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct CourseItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -35,13 +35,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CourseItem_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-            ContentView()
-                .previewLayout(.fixed(width: 200.0, height: 200.0))
-                .preferredColorScheme(.dark)
-        }
+        CourseItem()
     }
 }

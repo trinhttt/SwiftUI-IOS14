@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct CourcesView: View {
+struct CourseList: View {
     @ViewBuilder
     var body: some View {
         #if os(iOS)
@@ -22,7 +22,7 @@ struct CourcesView: View {
     
     var content: some View {
         List(0 ..< 20) { item in
-            CourceRow()
+            CourseRow()
         }
         .navigationTitle("Courses")
     }
@@ -30,6 +30,6 @@ struct CourcesView: View {
 
 struct CourcesView_Previews: PreviewProvider {
     static var previews: some View {
-        CourcesView()
+        CourseList()
     }
 }

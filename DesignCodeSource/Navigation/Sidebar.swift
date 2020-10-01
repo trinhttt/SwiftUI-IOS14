@@ -14,19 +14,33 @@ struct Sidebar: View {
             #if os(iOS)
             content
                 .navigationTitle("Learn")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing){
+                        Image(systemName: "person.crop.circel")
+                    }
+                }
             #else
             content
                 .frame(minWidth: 200, idealWidth: 250, maxWidth: 300)
+                .toolbar(content: {
+                    ToolbarItem(placement: ToolbarItemPlacement.automatic) {
+                        Button(action: {
+                            
+                        }) {
+                            Image(systemName: "person.crop.circel")
+                        }
+                    }
+                })
             #endif
 
-            CourcesView()
+            CoursesView()
 
         }
     }
     
     var content: some View {
         List {
-            NavigationLink(destination: CourcesView()) {
+            NavigationLink(destination: CoursesView()) {
                 Label("Courses", systemImage: "book.closed")
             }
             Label("Tutorials", systemImage: "list.bullet.rectangle")

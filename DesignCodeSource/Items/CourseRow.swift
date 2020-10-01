@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct CourceRow: View {
+struct CourseRow: View {
     var body: some View {
         HStack(alignment: .top) {
             Image(systemName: "paperplane.circle.fill")
@@ -32,6 +32,6 @@ struct CourceRow: View {
 
 struct SourceRow_Previews: PreviewProvider {
     static var previews: some View {
-        CourceRow()
+        CoursesView()
     }
 }
