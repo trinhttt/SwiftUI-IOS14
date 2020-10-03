@@ -16,7 +16,7 @@ struct Sidebar: View {
                 .navigationTitle("Learn")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing){
-                        Image(systemName: "person.crop.circel")
+                        Image(systemName: "person.crop.circle")
                     }
                 }
             #else
@@ -27,7 +27,7 @@ struct Sidebar: View {
                         Button(action: {
                             
                         }) {
-                            Image(systemName: "person.crop.circel")
+                            Image(systemName: "person.crop.circle")
                         }
                     }
                 })
