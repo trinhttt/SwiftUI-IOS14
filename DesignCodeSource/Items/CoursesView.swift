@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct CoursesView: View {
+    @State var show = false
     var body: some View {
-        Text("")
+        ZStack {
+            CourseItem()
+                .frame(width: 335, height: 250)
+            VStack {
+                if show {
+                    CourseItem()
+                        .transition(.move(edge: .bottom))
+                        .edgesIgnoringSafeArea(.all)
+                }
+            }
+        }
+        .onTapGesture {
+            withAnimation {
+                show.toggle()
+            }
+        }
+//        .animation(.easeInOut)
     }
 }
 

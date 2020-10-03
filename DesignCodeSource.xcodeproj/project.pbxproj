@@ -92,12 +92,12 @@
 			children = (
 				0E4EF94C252694A200A0C0FF /* Navigation */,
 				0E4EF950252694E700A0C0FF /* Items */,
+				0E4EF9592526976400A0C0FF /* CoursesView.swift */,
+				0E938C502522A25100618C28 /* CoursesList.swift */,
 				0E0FDF61252085B400B878C4 /* AppDelegate.swift */,
 				0E0FDF63252085B400B878C4 /* SceneDelegate.swift */,
 				0E0FDF67252085B800B878C4 /* Assets.xcassets */,
 				0E0FDF6C252085B800B878C4 /* LaunchScreen.storyboard */,
-				0E4EF9592526976400A0C0FF /* CoursesView.swift */,
-				0E938C502522A25100618C28 /* CoursesList.swift */,
 				0E0FDF69252085B800B878C4 /* Preview Content */,
 			);
 			path = DesignCodeSource;
