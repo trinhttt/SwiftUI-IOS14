@@ -50,6 +50,7 @@
 		0EF3D3D72529EA44002E4050 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3C92529EA44002E4050 /* TutorialSection.swift */; };
 		0EF3D3DB2529EF28002E4050 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3DA2529EF28002E4050 /* VisualEffectBlur.swift */; };
 		0EF3D3DF2529EF32002E4050 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3DE2529EF32002E4050 /* VisualEffectBlur.swift */; };
+		0EF3D3E5252A2789002E4050 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3E4252A2789002E4050 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		0EF3D3C92529EA44002E4050 /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
 		0EF3D3DA2529EF28002E4050 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		0EF3D3DE2529EF32002E4050 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		0EF3D3E4252A2789002E4050 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0E0FDF65252085B400B878C4 /* ContentView.swift */,
+				0EF3D3E4252A2789002E4050 /* TabBar.swift */,
 				0E74F44F2523966100B6B76C /* Sidebar.swift */,
 			);
 			path = Navigation;
@@ -350,6 +353,7 @@
 				0E938C512522A25100618C28 /* CoursesList.swift in Sources */,
 				0EF3D3CE2529EA44002E4050 /* CourseSection.swift in Sources */,
 				0ED4888F252976E9005BAC5D /* CoursesView.swift in Sources */,
+				0EF3D3E5252A2789002E4050 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
