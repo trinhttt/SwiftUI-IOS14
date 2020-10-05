@@ -11,7 +11,7 @@ import SwiftUI
 struct CourseItem: View {
     var course = courses[0]
     #if os(iOS)
-    var cornerRadius: CGFloat = 25
+    var cornerRadius: CGFloat = 10
     #else
     var cornerRadius: CGFloat = 10
     #endif

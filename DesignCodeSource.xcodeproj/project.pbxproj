@@ -51,6 +51,8 @@
 		0EF3D3DB2529EF28002E4050 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3DA2529EF28002E4050 /* VisualEffectBlur.swift */; };
 		0EF3D3DF2529EF32002E4050 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3DE2529EF32002E4050 /* VisualEffectBlur.swift */; };
 		0EF3D3E5252A2789002E4050 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3E4252A2789002E4050 /* TabBar.swift */; };
+		0EFE3820252B7AF400CA753D /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE381F252B7AF400CA753D /* CourseSectionDetail.swift */; };
+		0EFE3821252B7AF400CA753D /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE381F252B7AF400CA753D /* CourseSectionDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,7 @@
 		0EF3D3DA2529EF28002E4050 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		0EF3D3DE2529EF32002E4050 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		0EF3D3E4252A2789002E4050 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0EFE381F252B7AF400CA753D /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,7 @@
 				0E938C502522A25100618C28 /* CoursesList.swift */,
 				0ED4888E252976E9005BAC5D /* CoursesView.swift */,
 				0EF3D3BE2529E34D002E4050 /* CourseDetail.swift */,
+				0EFE381F252B7AF400CA753D /* CourseSectionDetail.swift */,
 				0EF3D3B92529BEFD002E4050 /* CloseButton.swift */,
 				0ED48897252977C1005BAC5D /* Others */,
 				0E0FDF69252085B800B878C4 /* Preview Content */,
@@ -317,6 +321,7 @@
 				0EF3D3CB2529EA44002E4050 /* Tutorial.swift in Sources */,
 				0EF3D3CD2529EA44002E4050 /* GradientModel.swift in Sources */,
 				0EF3D3BB2529BEFD002E4050 /* CloseButton.swift in Sources */,
+				0EFE3821252B7AF400CA753D /* CourseSectionDetail.swift in Sources */,
 				0E0A901225254AB0003CF49E /* ContentView.swift in Sources */,
 				0E4EF94D252694C100A0C0FF /* CourseItem.swift in Sources */,
 				0E0A901325254AB0003CF49E /* CourseRow.swift in Sources */,
@@ -337,6 +342,7 @@
 				0EF3D3BA2529BEFD002E4050 /* CloseButton.swift in Sources */,
 				0EF3D3CA2529EA44002E4050 /* Tutorial.swift in Sources */,
 				0EF3D3D02529EA44002E4050 /* LivestreamSection.swift in Sources */,
+				0EFE3820252B7AF400CA753D /* CourseSectionDetail.swift in Sources */,
 				0E0FDF62252085B400B878C4 /* AppDelegate.swift in Sources */,
 				0EF3D3DB2529EF28002E4050 /* VisualEffectBlur.swift in Sources */,
 				0ED48886252976D4005BAC5D /* Course.swift in Sources */,
