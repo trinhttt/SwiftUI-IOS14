@@ -17,9 +17,10 @@ struct ContentView: View {
     var body: some View {
         #if os(iOS)
         if horizontalSizeClass == .compact {
-            TabBar()
+//            TabBar()
+            CoursesView()
         } else {
-            Sidebar()
+//            Sidebar()
         }
         #else
         Sidebar()
