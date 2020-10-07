@@ -35,6 +35,6 @@ struct CourseRow: View {
 
 struct SourceRow_Previews: PreviewProvider {
     static var previews: some View {
-        CoursesView()
+        CourseRow()
     }
 }

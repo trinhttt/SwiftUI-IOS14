@@ -36,7 +36,7 @@ struct CourseItem: View {
                 .foregroundColor(Color.white)
         }
         .padding(.all)
-        .cardStyle()
+        .cardStyle(color: .blue, cornerRadius: 22)
 //        .background(course.color)
 //        .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
 //        .shadow(color: course.color.opacity(0.3), radius: 20, x: 0, y: 10)

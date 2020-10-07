@@ -26,6 +26,17 @@
 		0E4EF947252692E300A0C0FF /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EF946252692E300A0C0FF /* CourseItem.swift */; };
 		0E4EF94D252694C100A0C0FF /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EF946252692E300A0C0FF /* CourseItem.swift */; };
 		0E74F4502523966100B6B76C /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74F44F2523966100B6B76C /* Sidebar.swift */; };
+		0E823CB2252E297D009974FC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E823CB1252E297D009974FC /* WidgetKit.framework */; };
+		0E823CB4252E297D009974FC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E823CB3252E297D009974FC /* SwiftUI.framework */; };
+		0E823CB7252E297D009974FC /* DesignCodeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E823CB6252E297D009974FC /* DesignCodeWidget.swift */; };
+		0E823CBA252E297F009974FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E823CB9252E297F009974FC /* Assets.xcassets */; };
+		0E823CBC252E297F009974FC /* DesignCodeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0E823CB8252E297D009974FC /* DesignCodeWidget.intentdefinition */; };
+		0E823CBD252E297F009974FC /* DesignCodeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0E823CB8252E297D009974FC /* DesignCodeWidget.intentdefinition */; };
+		0E823CC0252E297F009974FC /* DesignCodeWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0E823CAF252E297D009974FC /* DesignCodeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0E823CD3252E304B009974FC /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3D3C52529EA44002E4050 /* CourseSection.swift */; };
+		0E823CD7252E3059009974FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0FDF67252085B800B878C4 /* Assets.xcassets */; };
+		0E823CDF252E3090009974FC /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4888E252976E9005BAC5D /* CoursesView.swift */; };
+		0E823CEC252E30DA009974FC /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEAE83225229CC400EDB602 /* CourseRow.swift */; };
 		0E938C512522A25100618C28 /* CoursesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E938C502522A25100618C28 /* CoursesList.swift */; };
 		0ED48886252976D4005BAC5D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED48885252976D4005BAC5D /* Course.swift */; };
 		0ED4888B252976D9005BAC5D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED48885252976D4005BAC5D /* Course.swift */; };
@@ -55,6 +66,30 @@
 		0EFE3821252B7AF400CA753D /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE381F252B7AF400CA753D /* CourseSectionDetail.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0E823CBE252E297F009974FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E0FDF56252085B400B878C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E823CAE252E297D009974FC;
+			remoteInfo = DesignCodeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E823CC1252E297F009974FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0E823CC0252E297F009974FC /* DesignCodeWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0E0A901E25254AB0003CF49E /* DesignCodeSource_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeSource_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0A902025254AC6003CF49E /* DesignCodeSource_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignCodeSource_macOS.entitlements; sourceTree = "<group>"; };
@@ -69,6 +104,13 @@
 		0E49A901252D23D4005C001F /* LibraryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContent.swift; sourceTree = "<group>"; };
 		0E4EF946252692E300A0C0FF /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		0E74F44F2523966100B6B76C /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		0E823CAF252E297D009974FC /* DesignCodeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DesignCodeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E823CB1252E297D009974FC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0E823CB3252E297D009974FC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0E823CB6252E297D009974FC /* DesignCodeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeWidget.swift; sourceTree = "<group>"; };
+		0E823CB8252E297D009974FC /* DesignCodeWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DesignCodeWidget.intentdefinition; sourceTree = "<group>"; };
+		0E823CB9252E297F009974FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E823CBB252E297F009974FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E938C502522A25100618C28 /* CoursesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesList.swift; sourceTree = "<group>"; };
 		0ED48885252976D4005BAC5D /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		0ED4888E252976E9005BAC5D /* CoursesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
@@ -104,6 +146,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E823CAC252E297D009974FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E823CB4252E297D009974FC /* SwiftUI.framework in Frameworks */,
+				0E823CB2252E297D009974FC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -113,6 +164,8 @@
 				0E0FDF60252085B400B878C4 /* DesignCodeSource */,
 				0EED38C225280C34001B1F9A /* iOS */,
 				0EED38C325280C40001B1F9A /* macOS */,
+				0E823CB5252E297D009974FC /* DesignCodeWidget */,
+				0E823CB0252E297D009974FC /* Frameworks */,
 				0E0FDF5F252085B400B878C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +175,7 @@
 			children = (
 				0E0FDF5E252085B400B878C4 /* DesignCodeSource.app */,
 				0E0A901E25254AB0003CF49E /* DesignCodeSource_macOS.app */,
+				0E823CAF252E297D009974FC /* DesignCodeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +231,26 @@
 				0E4EF946252692E300A0C0FF /* CourseItem.swift */,
 			);
 			path = Items;
+			sourceTree = "<group>";
+		};
+		0E823CB0252E297D009974FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E823CB1252E297D009974FC /* WidgetKit.framework */,
+				0E823CB3252E297D009974FC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E823CB5252E297D009974FC /* DesignCodeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0E823CB6252E297D009974FC /* DesignCodeWidget.swift */,
+				0E823CB8252E297D009974FC /* DesignCodeWidget.intentdefinition */,
+				0E823CB9252E297F009974FC /* Assets.xcassets */,
+				0E823CBB252E297F009974FC /* Info.plist */,
+			);
+			path = DesignCodeWidget;
 			sourceTree = "<group>";
 		};
 		0ED488942529779D005BAC5D /* Model */ = {
@@ -251,15 +325,34 @@
 				0E0FDF5A252085B400B878C4 /* Sources */,
 				0E0FDF5B252085B400B878C4 /* Frameworks */,
 				0E0FDF5C252085B400B878C4 /* Resources */,
+				0E823CC1252E297F009974FC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0E823CBF252E297F009974FC /* PBXTargetDependency */,
 			);
 			name = DesignCodeSource;
 			productName = DesignCodeSource;
 			productReference = 0E0FDF5E252085B400B878C4 /* DesignCodeSource.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0E823CAE252E297D009974FC /* DesignCodeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E823CC4252E297F009974FC /* Build configuration list for PBXNativeTarget "DesignCodeWidgetExtension" */;
+			buildPhases = (
+				0E823CAB252E297D009974FC /* Sources */,
+				0E823CAC252E297D009974FC /* Frameworks */,
+				0E823CAD252E297D009974FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignCodeWidgetExtension;
+			productName = DesignCodeWidgetExtension;
+			productReference = 0E823CAF252E297D009974FC /* DesignCodeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -267,12 +360,15 @@
 		0E0FDF56252085B400B878C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Trinh Thai";
 				TargetAttributes = {
 					0E0FDF5D252085B400B878C4 = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					0E823CAE252E297D009974FC = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -291,6 +387,7 @@
 			targets = (
 				0E0FDF5D252085B400B878C4 /* DesignCodeSource */,
 				0E0A900E25254AB0003CF49E /* DesignCodeSource_macOS */,
+				0E823CAE252E297D009974FC /* DesignCodeWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -316,6 +413,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E823CAD252E297D009974FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E823CD7252E3059009974FC /* Assets.xcassets in Resources */,
+				0E823CBA252E297F009974FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -338,6 +444,7 @@
 				0EF3D3CF2529EA44002E4050 /* CourseSection.swift in Sources */,
 				0EF3D3D12529EA44002E4050 /* LivestreamSection.swift in Sources */,
 				0EF3D3D72529EA44002E4050 /* TutorialSection.swift in Sources */,
+				0E823CDF252E3090009974FC /* CoursesView.swift in Sources */,
 				0EF3D3DF2529EF32002E4050 /* VisualEffectBlur.swift in Sources */,
 				0E0A901425254AB0003CF49E /* Sidebar.swift in Sources */,
 				0E0A901525254AB0003CF49E /* CoursesList.swift in Sources */,
@@ -355,6 +462,7 @@
 				0E0FDF62252085B400B878C4 /* AppDelegate.swift in Sources */,
 				0EF3D3DB2529EF28002E4050 /* VisualEffectBlur.swift in Sources */,
 				0ED48886252976D4005BAC5D /* Course.swift in Sources */,
+				0E823CBD252E297F009974FC /* DesignCodeWidget.intentdefinition in Sources */,
 				0E49A902252D23D5005C001F /* LibraryContent.swift in Sources */,
 				0E0FDF64252085B400B878C4 /* SceneDelegate.swift in Sources */,
 				0E0FDF66252085B400B878C4 /* ContentView.swift in Sources */,
@@ -373,7 +481,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E823CAB252E297D009974FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E823CB7252E297D009974FC /* DesignCodeWidget.swift in Sources */,
+				0E823CBC252E297F009974FC /* DesignCodeWidget.intentdefinition in Sources */,
+				0E823CD3252E304B009974FC /* CourseSection.swift in Sources */,
+				0E823CEC252E30DA009974FC /* CourseRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E823CBF252E297F009974FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E823CAE252E297D009974FC /* DesignCodeWidgetExtension */;
+			targetProxy = 0E823CBE252E297F009974FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0E0FDF6C252085B800B878C4 /* LaunchScreen.storyboard */ = {
@@ -550,6 +677,7 @@
 		0E0FDF73252085B800B878C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodeSource/Preview Content\"";
@@ -570,6 +698,7 @@
 		0E0FDF74252085B800B878C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodeSource/Preview Content\"";
@@ -582,6 +711,50 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TrinhThai.DesignCodeSource;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E823CC2252E297F009974FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesignCodeWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrinhThai.DesignCodeSource.DesignCodeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E823CC3252E297F009974FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesignCodeWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrinhThai.DesignCodeSource.DesignCodeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -613,6 +786,15 @@
 			buildConfigurations = (
 				0E0FDF73252085B800B878C4 /* Debug */,
 				0E0FDF74252085B800B878C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E823CC4252E297F009974FC /* Build configuration list for PBXNativeTarget "DesignCodeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E823CC2252E297F009974FC /* Debug */,
+				0E823CC3252E297F009974FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
